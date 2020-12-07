@@ -1,0 +1,21 @@
+selectors are of three types
+1. Basic selectors
+	Basic selectors are again of four types
+	1. Id (#)
+	2. Class (.)
+	3. Element (Directly use tag element name)
+	4. Universal (*)
+2. Relational selectors
+	Relational selectors are of five types 
+	1. Descendent combiner
+`	2. Child combiner
+	3. Adjacent sibling selector
+	4. General sibling selector
+	5. attribute selector
+3. Pseudo selectors
+	1. Link
+	2. Visited
+	3. Hover
+	4. Action
+	5. first-child
+	6. last-child

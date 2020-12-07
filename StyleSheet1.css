@@ -1,0 +1,23 @@
+﻿
+/* ----------Basic Selectors -----------------------*/
+
+h1{background:green ; color:blue;}  /* Element selector*/	
+
+#Idselector{background:grey ; color:green;} /* Id selector */
+
+.Classselector{background:red ; color:white;} /* Class selector */
+
+*{background:black; color:grey;}  /*Universal selector. It is applicable all the elements in the  HTML script.*/
+
+/*------------------------------------------------------------------------------------------*/
+
+/* ------------------Relational Selectors-----------------------*/
+
+/*body p{background:yellow; color:red;} /* Descendent combiner selector. It is applicable for all child and grand child p elements of the body tag. It is represented using the space.*/
+
+body>p{background:red; color:yellow;} /*Child combiner selector. It is appliable only to the direct child of the body tag not to the grand childs.*/
+p+h2{background:blue; color:yellow;}/*Adjacent sibling selector. It applies the style to the immediate next sibling of the element. In this case the style is applied to the immediate h2 element of a p tag. */
+p~h2{background:yellow; color:blue;}/*General sibling selector. It applies to all the corresponding siblings of an element.In this case the style will be appliedto all the h2 siblings of a p element.*/
+/* ^-starting position  $-ending position  *-any position
+
+
