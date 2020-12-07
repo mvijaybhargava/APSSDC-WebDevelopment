@@ -1,0 +1,17 @@
+﻿span:first-child{background:red;color:yellow;} 
+span:last-child{background:yellow;color:red;} /*Last-child selector*/
+
+span:nth-of-type(2){background:green;color:yellow}/* To choose any other element other than first and last*/
+
+span:nth-of-type(odd) {
+    background: yellow;
+    color: green
+}
+/* To choose all odd elements*/
+
+span:nth-of-type(even) {
+    background: green;
+    color: darkorange;
+}
+/* Even Rule*/
+
