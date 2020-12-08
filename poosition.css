@@ -1,0 +1,30 @@
+﻿/* Static position . It is applied by default to the elements. Need not be explicitly mentioned.Here we will not be able to use the position.
+
+.parent{
+	border: 1px solid red;
+	margin: 1%;
+}
+.child{
+	border: 1px dotted green;
+	width: 30%;
+	margin: 1%;
+}*/
+
+.parent{
+	border: 1px solid red;
+	margin: 1%;
+	height:500px
+}
+.child{
+	position:sticky;
+	top: 100px;
+	border: 1px dotted green;
+	width: 30%;
+	margin: 1%;/
+
+}
+
+/* Difference between static and fixed is that in static the position of the child element is with respect to the parent element. But in case of fixe there is no relation between the parent and the child element. In static the child element will always be inside the paernt element only.*/
+
+/* In absolute all the values are wrt to the root element which is usually the body element. But if we want an element to be positioned wrt element other than body then we needd to use relative positioning*/
+

@@ -1,0 +1,10 @@
+﻿/* Static position . It is applied by default to the elements. Need not be explicitly mentioned..*/
+.parent{
+	border: 1px solid red;
+	margin: 1%;
+}
+`.child{
+	border: 1px dotted green;
+	width: 30%;
+	margin: 1%;
+}
